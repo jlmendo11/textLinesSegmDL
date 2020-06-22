@@ -1,0 +1,42 @@
+PARTICULAR_GT
+
+The minimum - average - maximum values of HEIGHT are:
+                651 - 2037.22 - 3428
+
+The minimum - average - maximum values of WIDTH are:
+                1427 - 2165.945 - 2529
+
+The minimum - average - maximum values of NLINES are: 
+                6 - 18.635 - 36
+
+======================================================
+
+PARTICULAR_TEST
+
+The minimum - average - maximum values of HEIGHT are:
+                659 - 2156.1466666666665 - 4496
+
+The minimum - average - maximum values of WIDTH are:
+                1890 - 2445.806666666667 - 3227
+
+The minimum - average - maximum values of NLINES are:
+                6 - 17.66 - 30
+
+=======================================================
+
+224.tif is the only image which doesn't let us put 4096 (2^14) of maximum HEIGHT
+327.tif is the only image which doesn't let us put 3072 (3*2^10) of maximum WIDTH
+
+If we omit them, we liberate 1,4 * 10^9 pixels, which are 175 MB of RAM
+
+
+IF WE OMIT THEM, PARTICULAR GOES LIKE THIS:
+
+The minimum - average - maximum values of HEIGHT are:
+                659 - 2142.912162162162 - 3652
+
+The minimum - average - maximum values of WIDTH are:
+                1890 - 2440.189189189189 - 2534
+
+The minimum - average - maximum values of NLINES are:
+                6 - 17.66216216216216 - 30
